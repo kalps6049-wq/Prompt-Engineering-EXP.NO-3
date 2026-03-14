@@ -12,67 +12,87 @@ Aim: To write the prompts for the following prompt types for 2 different scenari
 
 Procedure:
 
-1. Straightforward Prompt:
-A Straightforward Prompt gives a direct instruction to the AI without any complex structure. It clearly states what the user wants.
-
-Example:
-Prompt:
-“Explain the benefits of using renewable energy.”
-
+1). STRAIGHT FORWARD PROMPT:
+Scenario 1: Photosynthesis
+Prompt: “Explain the process of photosynthesis in simple terms.”
+Input: Information about how plants use sunlight, carbon dioxide, and water to produce food.
+Output: Photosynthesis is the process by which green plants make their food using sunlight. Plants take in carbon dioxide from the air and water from the soil. Using sunlight and chlorophyll, they produce glucose (food) and release oxygen.
+ 
+Scenario 2: Human Digestive System
+Prompt: “List the main organs of the human digestive system.”
+Input: Information about organs involved in digestion.
 Output:
-Renewable energy sources such as solar, wind, and hydro power are sustainable and environmentally friendly. They reduce carbon emissions, decrease dependence on fossil fuels, and help protect the environment for future generations.
+1.      Mouth
+2.      Oesophagus
+3.      Stomach
+4.      Small Intestine
+5.      Large Intestine
+6.      Liver
+7.      Pancreas
+ 
+2). TABULAR FORMAT PROMPTING:
+Here are two scenarios for Tabular Format Prompt (Science related):
 
-Explanation:
-This prompt is simple and direct, making it easy for the AI to understand the request.
+Scenario 1: Planets in the Solar System
+Prompt: Present the names of inner planets and their main characteristics in a tabular format.
 
-2. Tabular Format Prompting:
-In Tabular Format Prompting, the prompt asks the AI to present information in a table format. This helps organize information clearly and makes comparison easier.
+           Planet
+Distance from sun
+    Special features
+           Mercury
+   Closest to sun
+    Smallest planet
+           Venus
+   Second to sun
+    Hottest planet
+           Earth
+   Third to sun
+    Supports life
 
-Example:
-Prompt:
-“Compare Solar Energy and Wind Energy in a table format.”
+ Scenario 2: States of Matter
+Prompt: Compare the three states of matter in a tabular format.
 
-Output:
-```
-Feature                 Solar Energy        Wind Energy
-            
-Source                  Sunlight            Wind
+State of matter
+     Shape
+     Volume
+    Example
+      Solid
+     Fixed
+     Fixed
+       Ice
+      Liquid
+   No fixed
+   No fixed
+       Water
+      Gas
+   No fixed
+   No fixed
+       Oxygen
 
-Installation            Solar panels        Wind turbines
+ 
 
-Best location           Sunny areas         Windy areas
 
-Environmental impact    Very low            Very low
-```
+3).MISSING WORD PROMPT:
+Scenario 1: Photosynthesis
+Prompt: Fill in the missing word.
+Sentence: Plants make their food using sunlight in a process called ________.
+Answer: Photosynthesis
 
-Explanation:
-The information is structured in rows and columns, which improves readability.
+Scenario 2: Human Respiratory System
+Prompt: Fill in the missing word.
+Sentence: The organ responsible for breathing in the human body is the ________.
+Answer: Lungs
 
-3. Missing Word Prompting:
-Missing Word Prompting provides a sentence with a blank space, and the AI fills in the missing word based on context.
+4).PRECEDING QUESTION PROMPTING:
+Scenario 1: Water Cycle
+Preceding Question: What are the main stages of the water cycle?
+ Prompt: Explain the water cycle.
+Output: The water cycle is the continuous movement of water on Earth. It includes stages such as evaporation, condensation, precipitation, and collection. Water evaporates from oceans and lakes, forms clouds through condensation, falls as rain or snow, and collects again in water bodies.
 
-Example:
-Prompt:
-“Python is a ______ programming language known for its simplicity.”
-
-Output:
-Python is a high-level programming language known for its simplicity.
-
-Explanation:
-The AI identifies the most suitable word to complete the sentence.
-
-5. Preceding Question Prompting:
-In Preceding Question Prompting, a question is asked before giving the main task. This helps guide the AI to think about the context before answering.
-
-Example:
-Prompt:
-“What are the major causes of air pollution? Based on that, explain how pollution can be reduced.”
-
-Output:
-Major causes of air pollution include vehicle emissions, industrial smoke, and burning fossil fuels. Pollution can be reduced by using public transport, adopting renewable energy sources, planting more trees, and controlling industrial emissions.
-
-Explanation:
-The initial question prepares the context for the final response.
+Scenario 2: Solar Energy
+Preceding Question: Why is solar energy considered a renewable source of energy?
+ Prompt: Describe solar energy.
+Output: Solar energy is the energy obtained from the Sun. It is considered renewable because the Sun continuously produces energy that will not run out for billions of years. Solar panels are commonly used to convert sunlight into electricity for homes and industries.
 
 Conclusion:
 Different prompt types help improve communication with AI systems. Straightforward prompts give direct instructions, tabular prompts organize information clearly, missing word prompts test contextual understanding, and preceding question prompts guide the AI toward more accurate responses. Using the right prompt type can significantly improve the quality of AI-generated answers.
